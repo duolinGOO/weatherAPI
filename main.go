@@ -14,7 +14,7 @@ type weatherData struct {
 	Name string `json:"name"`
 	Weather struct {
 		Сelsius float64 `json:"temperature"`
-	} `json:"main"`
+	} `json:"weather"`
 }
 
 func loadApiConfig(filename string) (apiConfigData, error) {
