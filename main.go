@@ -12,7 +12,7 @@ type apiConfigData struct {
 }
 type weatherData struct {
 	Name string `json:"name"`
-	Main struct {
+	Weather struct {
 		Сelsius float64 `json:"temperature"`
 	} `json:"main"`
 }
