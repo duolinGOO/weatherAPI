@@ -7,13 +7,13 @@ import (
 	"strings"
 )
 
-type apiConfigData struct {
+type apiConfigData struct { 
 	OpenWeatherKey string `json:"OpenWeatherKey"`
 }
 type weatherData struct {
 	Name string `json:"name"`
 	Main struct {
-		Сelsius float64 `json:"temp"`
+		Сelsius float64 `json:"temperature"`
 	} `json:"main"`
 }
 
